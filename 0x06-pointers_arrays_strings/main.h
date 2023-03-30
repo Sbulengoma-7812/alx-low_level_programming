@@ -9,6 +9,7 @@
 
 void reverse_array(int *b, int m);
 void print_number(int m);
+void print_number(int n);
 void print_buffer(char *c, int size);
 int _strcmp(char *t1, char *t2);
 char *_strcat(char *dest, char *src);
