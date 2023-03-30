@@ -7,20 +7,51 @@
  *char prototypes()
  */
 
-void reverse_array(int *b, int m);
-void print_number(int m);
-void print_number(int n);
-void print_buffer(char *c, int size);
-int _strcmp(char *t1, char *t2);
+int _putchar(char c);
+
+void reset_to_98(int *n);
+
+void swap_int(int *a, int *b);
+
+int _strlen(char *s);
+
+void _puts(char *str);
+
+void print_rev(char *s);
+
+void rev_string(char *s);
+
+void puts2(char *str);
+
+void puts_half(char *str);
+
+void print_array(int *a, int n);
+
+char *_strcpy(char *dest, char *src);
+
+int _atoi(char *s);
+
 char *_strcat(char *dest, char *src);
-char *_strncat(char *dest, char *src, int m);
-char *_strncpy(char *dest, char *src, int m);
+
+char *_strncat(char *dest, char *src, int n);
+
+char *_strncpy(char *dest, char *src, int n);
+
+int _strcmp(char *s1, char *s2);
+
+void reverse_array(int *a, int n);
+
 char *string_toupper(char *);
 char *cap_string(char *);
-char *leet(char *);
+
 char *rot13(char *);
-char *infinite_add(char *m1, char *m2, char *s, int size_s);
-char *add_strings(char *m1, char *m2, char *s, int s_index);
 
-#endif /*MAIN_H*/
+char *leet(char *);
 
+void print_number(int n);
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+void print_buffer(char *b, int size);
+
+#endif
