@@ -1,24 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_chessboard - print the chessboard, 2d array
- * @a: 2d array of chars
+ * print_chessboard - locates a character in a string
+ * @a: is a pointer type char
+ * Return: The number of bytes repeated
  */
-
 void print_chessboard(char (*a)[8])
 {
-	int k, b;
-
-	k = 0;
-        while (k < 8)
-	{
-		b = 0;
-		while (b < 8)
-		{
-			_putchar(a[k][b]);
-			b++;
-		}
-		_putchar('\n');
-		k++;
-	}
+int i, j;
+for (i = 0; i < 8; i++)
+{
+for (j = 0; j < 8; j++)
+{
+_putchar(a[i][j]);
+}
+_putchar('\n');
+}
 }
